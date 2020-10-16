@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 section {
   overflow: hidden;
@@ -62,4 +63,26 @@ section h2 {
 }
 .about div {
   padding-top: 10px;
+}
+.login {
+  width: 30%;
+  margin: 1%;
+  left: 35%;
+}
+.login img {
+  margin-bottom: 22px;
+  border-radius: 100%;
+  object-fit: cover;
+  width: 150px;
+  box-shadow: 0px 2px 5px 1px gray;
+}
+.btn-rounded {
+  border-radius: 12px;
+}
+@media screen and (max-width: 930px) {
+  .login {
+    left: 1%;
+    width: 95%;
+    margin: 2%;
+  }
 }
